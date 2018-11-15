@@ -14,7 +14,7 @@ class RustKDCommand extends commando.Command {
     async run(message, args) {
         console.log("KD: "+args);
         var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open("GET", 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=3B410FFD779753422BDD9FD2D517E543&steamids='+ args, false);
+        xmlHttp.open("GET", 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=SteamAPIKEY&steamids='+ args, false);
         xmlHttp.send(null);
 
         if(!(xmlHttp.responseText == "{}" || xmlHttp.responseText.includes("<html>") || xmlHttp.responseText == "{\"response\":{\"players\":[]}}")){
@@ -26,7 +26,7 @@ class RustKDCommand extends commando.Command {
         }
 
         var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open("GET", 'http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=252490&key=3B410FFD779753422BDD9FD2D517E543&steamid=' + args, false);
+        xmlHttp.open("GET", 'http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=252490&key=SteamAPIKEY&steamid=' + args, false);
         xmlHttp.send(null);
        
         if(!(xmlHttp.responseText == "{}" || xmlHttp.responseText.includes("<html>"))){
