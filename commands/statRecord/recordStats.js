@@ -16,7 +16,7 @@ class StatRecordCommand extends commando.Command {
         console.log("Recorded: " + args);
         var xmlHttp = new XMLHttpRequest();
         args = args.replace(/\D/g,'');
-        xmlHttp.open("GET", 'http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=252490&key=3B410FFD779753422BDD9FD2D517E543&steamid=' + args, false);
+        xmlHttp.open("GET", 'http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=252490&key=SteamIDKey&steamid=' + args, false);
         xmlHttp.send(null);  
         var n = xmlHttp.responseText;
         if(!(xmlHttp.responseText == "{}" || n.includes("<html>") || xmlHttp.responseText == "{\"response\":{\"players\":[]}}")){
