@@ -1,7 +1,7 @@
 const commando = require('discord.js-commando');
 const DBL = require("dblapi.js");
 const bot = new commando.Client({commandPrefix: 'r!',  owner: '247111029912240128', unknownCommandResponse: false,  disableEveryone: true});
-const dbl = new DBL('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ3ODgxMTgwOTIzNTg2MTUwNCIsImJvdCI6dHJ1ZSwiaWF0IjoxNTQxNDg1MjA4fQ.YSiH87EkXSoSfbigRTxDAxLxpshDDCNclhHY-4BHbOU', bot);
+const dbl = new DBL('dbl ID', bot);
 
 bot.registry.registerGroup('rust', 'Rust');
 bot.registry.registerGroup('statrecord', 'StatRecord');
