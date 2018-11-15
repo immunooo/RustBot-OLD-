@@ -27,4 +27,4 @@ bot.on('ready', function(){
 bot.on('error', console.error);
 
 
-bot.login('NDc4ODExODA5MjM1ODYxNTA0.DlvEzQ.QFmhur48hHYSmVjVOCCErY6i9Is');
+bot.login('bot key here');
