@@ -5,7 +5,7 @@ RustBot gets Rust stats from the Steam API, gets information about Rust servers 
 
 Note: All commands with "\*" next to it require a steam ID 64 to use. Example Syntax: r!kills 76561198067054205
 
-Contributers Commands(1):
+Contributers(1):
 ----------------------
 
 immunooo(Jojo#8710)
