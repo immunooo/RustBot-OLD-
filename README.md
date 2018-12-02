@@ -16,6 +16,12 @@ Rust Stat Commands(6):
 
 _Command:_
 
+\*r!default      |Sets a default Steam ID 64 to your discord account. When you have a Steam ID 64 defaulted to your account you no longer need to put in your Steam ID 64 into the commands that require Steam ID 64s.
+
+Without: r!deaths 76561198067054205; With: r!deaths
+
+
+
 \*r!deaths       |Shows a list of current death stats for the given Steam ID 64.
 
 \*r!kd           |Shows the current K/D ratio for the given Steam ID 64.
