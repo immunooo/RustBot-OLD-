@@ -59,4 +59,6 @@ _Command:_
 
 r!help    |DMs the user the list of commands and a description.
 
+r!update |Shows the most recent Update for RustBot.
+
 r!about   |Shows stuff about the bot.
