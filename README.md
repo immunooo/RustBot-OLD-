@@ -10,7 +10,7 @@ Note: All commands with "\*" next to it require a steam ID 64 to use. Example Sy
 Contributers(1):
 ----------------------
 
-immunooo(Jojo#8710)
+immunooo(Discord - Jojo#6195)
 
 Rust Stat Commands(6):
 ----------------------
