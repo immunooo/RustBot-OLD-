@@ -1,8 +1,9 @@
+#PLEASE VISIT THE UPDATED REPOSITORY here(https://github.com/immunooo/RustBot)
+
 RustBot gets Rust stats from the Steam API, gets information about Rust servers and other fun commands.
 -------------------------------------------------------------------------------------------------------
 
 #### RustBot is **100% free** and **100% opensource**. 
-Add the bot to your server here: https://discordapp.com/oauth2/authorize?client_id=478811809235861504&scope=bot&permissions=19456
 
 Note: All commands with "\*" next to it require a steam ID 64 to use. Example Syntax: r!kills 76561198067054205
 
