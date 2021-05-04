@@ -1,4 +1,4 @@
-#PLEASE VISIT THE UPDATED REPOSITORY here(https://github.com/immunooo/RustBot)
+# PLEASE VISIT THE UPDATED REPOSITORY [here](https://github.com/immunooo/RustBot)
 
 RustBot gets Rust stats from the Steam API, gets information about Rust servers and other fun commands.
 -------------------------------------------------------------------------------------------------------
